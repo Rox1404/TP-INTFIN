@@ -12,6 +12,8 @@ export function Login() {
         navigate('/principal');
     };
 
+    
+
     return (
         <section>
             <h1>Iniciar Sesión</h1>

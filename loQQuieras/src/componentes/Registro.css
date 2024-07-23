@@ -1,4 +1,4 @@
-.registro-section {
+/*.registro-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,5 +38,82 @@
     .registro-section h1 {
       font-size: 20px;
     }
-  }
+  }*/
+
+  .register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.register-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+
+form input,
+form button,
+.btn-google,
+.btn-facebook {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button,
+.btn-google,
+.btn-facebook {
+    cursor: pointer;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.separator span {
+    padding: 0 10px;
+    color: #777;
+}
+
+.btn-google {
+    background-color: #db4437;
+    color: white;
+}
+
+.btn-facebook {
+    background-color: #4267B2;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .register-container h2 {
+        font-size: 20px;
+    }
+}
   

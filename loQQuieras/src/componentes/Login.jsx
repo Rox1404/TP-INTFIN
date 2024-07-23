@@ -12,7 +12,7 @@ export function Login() {
         navigate('/principal');
     };
 
-    
+
 
     return (
         <section>
